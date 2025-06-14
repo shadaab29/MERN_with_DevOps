@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <title>Shadab's Profile</title>
     <link rel="stylesheet" href="style.css">
-  
-  </head>
-  <body>
-    <h1>Welcome to My Profile</h1>
-    <p>Hi, I'm Shadab, learning MERN Stack!</p>
-
-    <h2>About Me</h2>
-    <p>I am passionate about DevOps and Web Development.</p>
-
-    <h2>My Skills</h2>
-    <ol>
-      <li>Linux</li>
-      <li>Cloud (AWS, Azure)</li>
-      <li>Git & GitHub</li>
-    </ol>
-
-    <h2>My Picture</h2>
-    <img src="https://via.placeholder.com/150" alt="My Photo">
+</head>
+<body>
+    <h1 id="main-heading">Welcome to My Profile</h1>
+    <p id="intro">Hi, I'm Shadab, learning MERN Stack!</p>
 
     <h2>Contact Me</h2>
-    <p>Email: shadab@example.com</p>
-    <a href="https://github.com/shadaab29" target="_blank">My GitHub</a>
-  </body>
-</html>
+    <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br><br>
 
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="form-output"></p>
+
+    <br><br>
+    <button id="welcome-btn">Show Welcome</button>
+    <button id="change-color-btn">Change Text Color</button>
+    <button id="toggle-border-btn">Toggle Image Border</button>
+    <button id="date-time-btn">Show Date & Time</button>
+
+    <h2>My Picture</h2>
+    <img src="https://via.placeholder.com/150" alt="My Photo" id="profile-pic">
+
+    <p id="datetime"></p>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
