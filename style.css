@@ -1,0 +1,43 @@
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+h1 {
+  color: darkblue;
+  text-align: center;
+}
+
+p {
+  color: green;
+}
+
+ul li, ol li {
+  color: darkred;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
